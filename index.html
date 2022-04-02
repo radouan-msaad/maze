@@ -381,7 +381,7 @@ function onLoad() {
   ctx = canvas.getContext("2d");
 
   player = new Player();
-  maze = new Maze(14, 14, 25);
+  maze = new Maze(10, 10, 25);
 
   document.addEventListener("keydown", onKeyDown);
 
@@ -391,7 +391,7 @@ function onLoad() {
 <title>Radwan Maze</title>
 </head>
 <body onload="onLoad();">
-  <div class="game container mt-2 shadow p-2 col-lg-5 col-md-6 col-sm-10 col-10">
+  <div class="game container mt-2 shadow p-2 col-lg-5 col-md-6 col-sm-10 col-12">
     <div class="row px-2">
     <div class="col timeC rounded bg-info text-white  mb-1">Time : <span ><span id="time">0</span> s</span></div>
   </div>
